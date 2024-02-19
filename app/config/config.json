@@ -1,0 +1,28 @@
+{
+    "development":{
+        "username":"user",
+        "password":"user",
+        "database":"dbnoticias",
+        "host":"127.0.0.1",
+        "dialect":"mysql",
+        "operatorAliases":false
+    },
+
+    "staging":{
+        "username":"production",
+        "password":"desarrollo",
+        "database":"dbnoticias",
+        "host":"192.168.10.1",
+        "dialect":"mysql",
+        "operatorAliases":false
+    },
+    
+    "production":{
+        "username":"production_news",
+        "password":"desarrollos",
+        "database":"dbnoticia",
+        "host":"192.168.10.1",
+        "dialect":"mysql",
+        "operatorAliases":false
+    }
+}
